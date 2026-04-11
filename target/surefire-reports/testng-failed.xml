@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.SearchTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSearchClear"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.SearchTests -->
+      <class name="tests.FooterTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testFooterTextPresent"/>
+          <include name="testFooterExists"/>
+          <include name="testScrollToFooter"/>
+          <include name="testFooterVisibleAfterScroll"/>
+        </methods>
+      </class> <!-- tests.FooterTests -->
+      <class name="tests.WatchPageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testNoErrorsInPage"/>
+        </methods>
+      </class> <!-- tests.WatchPageTests -->
+      <class name="tests.ProfileTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testNoErrorText"/>
+        </methods>
+      </class> <!-- tests.ProfileTests -->
+      <class name="tests.LoginTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testLoginLinkExists"/>
+          <include name="testLoginPageLoads"/>
+          <include name="testEmailFieldExists"/>
+          <include name="testLoginPageURL"/>
+          <include name="testNavigateToLoginPage"/>
+        </methods>
+      </class> <!-- tests.LoginTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
