@@ -1,1133 +1,785 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="0" failed="0" skipped="10">
+<testng-results ignored="0" total="48" passed="48" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-12T11:03:44 EDT" name="Vimeo Login Suite" finished-at="2026-04-12T11:03:59 EDT" duration-ms="15612">
+  <suite started-at="2026-04-13T16:33:45 EDT" name="Vimeo Test Suite" finished-at="2026-04-13T16:49:02 EDT" duration-ms="916929">
     <groups>
     </groups>
-    <test started-at="2026-04-12T11:03:44 EDT" name="Login Page Tests" finished-at="2026-04-12T11:03:59 EDT" duration-ms="15612">
+    <test started-at="2026-04-13T16:33:45 EDT" name="Sequential Vimeo Tests" finished-at="2026-04-13T16:49:02 EDT" duration-ms="916929">
+      <class name="tests.LeftNavigationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:05 EDT" name="setUp" finished-at="2026-04-13T16:36:06 EDT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:06 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:36:07 EDT" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyBackToHome()[pri:1, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:07 EDT" name="verifyBackToHome" description="Click Back to home." finished-at="2026-04-13T16:36:18 EDT" duration-ms="11040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackToHome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:18 EDT" name="tearDown" finished-at="2026-04-13T16:36:18 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:18 EDT" name="setUp" finished-at="2026-04-13T16:36:18 EDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:18 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:36:19 EDT" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyFeed()[pri:2, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:19 EDT" name="verifyFeed" description="Click Feed." finished-at="2026-04-13T16:36:29 EDT" duration-ms="9921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:29 EDT" name="tearDown" finished-at="2026-04-13T16:36:29 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:29 EDT" name="setUp" finished-at="2026-04-13T16:36:29 EDT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:29 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:36:30 EDT" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyExplore()[pri:3, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:30 EDT" name="verifyExplore" description="Click Explore." finished-at="2026-04-13T16:36:35 EDT" duration-ms="4683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExplore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:35 EDT" name="tearDown" finished-at="2026-04-13T16:36:35 EDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:35 EDT" name="setUp" finished-at="2026-04-13T16:36:35 EDT" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:35 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:36:36 EDT" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyStaffPicks()[pri:4, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:36 EDT" name="verifyStaffPicks" description="Click Staff Picks." finished-at="2026-04-13T16:36:47 EDT" duration-ms="10340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStaffPicks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:47 EDT" name="tearDown" finished-at="2026-04-13T16:36:47 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:47 EDT" name="setUp" finished-at="2026-04-13T16:36:47 EDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:47 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:36:48 EDT" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyChannels()[pri:5, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:48 EDT" name="verifyChannels" description="Click Channels." finished-at="2026-04-13T16:36:57 EDT" duration-ms="8861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChannels -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:57 EDT" name="tearDown" finished-at="2026-04-13T16:36:57 EDT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:57 EDT" name="setUp" finished-at="2026-04-13T16:36:57 EDT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:57 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:36:58 EDT" duration-ms="929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyCategories()[pri:6, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:36:58 EDT" name="verifyCategories" description="Click Categories." finished-at="2026-04-13T16:37:07 EDT" duration-ms="8814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategories -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:07 EDT" name="tearDown" finished-at="2026-04-13T16:37:07 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:07 EDT" name="setUp" finished-at="2026-04-13T16:37:07 EDT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:07 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:37:08 EDT" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyGroups()[pri:7, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:08 EDT" name="verifyGroups" description="Click Groups." finished-at="2026-04-13T16:37:17 EDT" duration-ms="8601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGroups -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:17 EDT" name="tearDown" finished-at="2026-04-13T16:37:17 EDT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:17 EDT" name="setUp" finished-at="2026-04-13T16:37:17 EDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ensureWatchPageBeforeEachTest()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:17 EDT" name="ensureWatchPageBeforeEachTest" finished-at="2026-04-13T16:37:18 EDT" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ensureWatchPageBeforeEachTest -->
+        <test-method signature="verifyOnDemand()[pri:8, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:18 EDT" name="verifyOnDemand" description="Click On Demand." finished-at="2026-04-13T16:37:27 EDT" duration-ms="8854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnDemand -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeftNavigationTests@3aefe5e5]" started-at="2026-04-13T16:37:27 EDT" name="tearDown" finished-at="2026-04-13T16:37:27 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LeftNavigationTests -->
+      <class name="tests.FooterTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:37:27 EDT" name="setUp" finished-at="2026-04-13T16:37:27 EDT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:37:27 EDT" name="openWatchPage" finished-at="2026-04-13T16:37:31 EDT" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterPricing()[pri:1, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:37:31 EDT" name="verifyFooterPricing" finished-at="2026-04-13T16:37:52 EDT" duration-ms="20757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterPricing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:37:52 EDT" name="tearDown" finished-at="2026-04-13T16:37:52 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:37:52 EDT" name="setUp" finished-at="2026-04-13T16:37:52 EDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:37:52 EDT" name="openWatchPage" finished-at="2026-04-13T16:38:00 EDT" duration-ms="7218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterContactSales()[pri:2, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:00 EDT" name="verifyFooterContactSales" finished-at="2026-04-13T16:38:21 EDT" duration-ms="21791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterContactSales -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:21 EDT" name="tearDown" finished-at="2026-04-13T16:38:22 EDT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:22 EDT" name="setUp" finished-at="2026-04-13T16:38:22 EDT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:22 EDT" name="openWatchPage" finished-at="2026-04-13T16:38:24 EDT" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterWatchDemos()[pri:3, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:24 EDT" name="verifyFooterWatchDemos" finished-at="2026-04-13T16:38:47 EDT" duration-ms="23215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterWatchDemos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:47 EDT" name="tearDown" finished-at="2026-04-13T16:38:47 EDT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:47 EDT" name="setUp" finished-at="2026-04-13T16:38:47 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:47 EDT" name="openWatchPage" finished-at="2026-04-13T16:38:50 EDT" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterJoin()[pri:4, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:38:50 EDT" name="verifyFooterJoin" finished-at="2026-04-13T16:39:11 EDT" duration-ms="20845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterJoin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:11 EDT" name="tearDown" finished-at="2026-04-13T16:39:11 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:11 EDT" name="setUp" finished-at="2026-04-13T16:39:11 EDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:11 EDT" name="openWatchPage" finished-at="2026-04-13T16:39:13 EDT" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterContactSupport()[pri:5, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:13 EDT" name="verifyFooterContactSupport" finished-at="2026-04-13T16:39:30 EDT" duration-ms="17692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterContactSupport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:30 EDT" name="tearDown" finished-at="2026-04-13T16:39:31 EDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:31 EDT" name="setUp" finished-at="2026-04-13T16:39:31 EDT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:31 EDT" name="openWatchPage" finished-at="2026-04-13T16:39:33 EDT" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVideoHosting()[pri:6, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:33 EDT" name="verifyFooterVideoHosting" finished-at="2026-04-13T16:39:53 EDT" duration-ms="20166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVideoHosting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:53 EDT" name="tearDown" finished-at="2026-04-13T16:39:53 EDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:53 EDT" name="setUp" finished-at="2026-04-13T16:39:53 EDT" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:53 EDT" name="openWatchPage" finished-at="2026-04-13T16:39:55 EDT" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVideoAnalytics()[pri:7, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:39:55 EDT" name="verifyFooterVideoAnalytics" finished-at="2026-04-13T16:40:15 EDT" duration-ms="19981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVideoAnalytics -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:15 EDT" name="tearDown" finished-at="2026-04-13T16:40:15 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:15 EDT" name="setUp" finished-at="2026-04-13T16:40:16 EDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:16 EDT" name="openWatchPage" finished-at="2026-04-13T16:40:18 EDT" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVideoEditor()[pri:8, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:18 EDT" name="verifyFooterVideoEditor" finished-at="2026-04-13T16:40:38 EDT" duration-ms="20085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVideoEditor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:38 EDT" name="tearDown" finished-at="2026-04-13T16:40:38 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:38 EDT" name="setUp" finished-at="2026-04-13T16:40:38 EDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:38 EDT" name="openWatchPage" finished-at="2026-04-13T16:40:40 EDT" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVideoPrivacy()[pri:9, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:40:40 EDT" name="verifyFooterVideoPrivacy" finished-at="2026-04-13T16:41:00 EDT" duration-ms="19975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVideoPrivacy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:00 EDT" name="tearDown" finished-at="2026-04-13T16:41:00 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:00 EDT" name="setUp" finished-at="2026-04-13T16:41:00 EDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:00 EDT" name="openWatchPage" finished-at="2026-04-13T16:41:02 EDT" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterSendVideos()[pri:10, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:02 EDT" name="verifyFooterSendVideos" finished-at="2026-04-13T16:41:22 EDT" duration-ms="20055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterSendVideos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:22 EDT" name="tearDown" finished-at="2026-04-13T16:41:22 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:22 EDT" name="setUp" finished-at="2026-04-13T16:41:23 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:23 EDT" name="openWatchPage" finished-at="2026-04-13T16:41:25 EDT" duration-ms="1897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVideoLibrary()[pri:11, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:25 EDT" name="verifyFooterVideoLibrary" finished-at="2026-04-13T16:41:44 EDT" duration-ms="19802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVideoLibrary -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:44 EDT" name="tearDown" finished-at="2026-04-13T16:41:45 EDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:45 EDT" name="setUp" finished-at="2026-04-13T16:41:45 EDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:45 EDT" name="openWatchPage" finished-at="2026-04-13T16:41:47 EDT" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterLiveStreaming()[pri:12, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:41:47 EDT" name="verifyFooterLiveStreaming" finished-at="2026-04-13T16:42:07 EDT" duration-ms="20094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLiveStreaming -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:07 EDT" name="tearDown" finished-at="2026-04-13T16:42:07 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:07 EDT" name="setUp" finished-at="2026-04-13T16:42:07 EDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:07 EDT" name="openWatchPage" finished-at="2026-04-13T16:42:09 EDT" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterInteractiveVideo()[pri:13, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:09 EDT" name="verifyFooterInteractiveVideo" finished-at="2026-04-13T16:42:29 EDT" duration-ms="20099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterInteractiveVideo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:29 EDT" name="tearDown" finished-at="2026-04-13T16:42:30 EDT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:30 EDT" name="setUp" finished-at="2026-04-13T16:42:30 EDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:30 EDT" name="openWatchPage" finished-at="2026-04-13T16:42:32 EDT" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVideoPlayer()[pri:14, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:32 EDT" name="verifyFooterVideoPlayer" finished-at="2026-04-13T16:42:52 EDT" duration-ms="19950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVideoPlayer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:52 EDT" name="tearDown" finished-at="2026-04-13T16:42:52 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:52 EDT" name="setUp" finished-at="2026-04-13T16:42:52 EDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:52 EDT" name="openWatchPage" finished-at="2026-04-13T16:42:54 EDT" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterVirtualEvents()[pri:15, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:42:54 EDT" name="verifyFooterVirtualEvents" finished-at="2026-04-13T16:43:14 EDT" duration-ms="19994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVirtualEvents -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:14 EDT" name="tearDown" finished-at="2026-04-13T16:43:14 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:14 EDT" name="setUp" finished-at="2026-04-13T16:43:14 EDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:14 EDT" name="openWatchPage" finished-at="2026-04-13T16:43:16 EDT" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterStreaming()[pri:16, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:16 EDT" name="verifyFooterStreaming" finished-at="2026-04-13T16:43:36 EDT" duration-ms="20000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterStreaming -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:36 EDT" name="tearDown" finished-at="2026-04-13T16:43:36 EDT" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:36 EDT" name="setUp" finished-at="2026-04-13T16:43:37 EDT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:37 EDT" name="openWatchPage" finished-at="2026-04-13T16:43:39 EDT" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterMarketing()[pri:17, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:39 EDT" name="verifyFooterMarketing" finished-at="2026-04-13T16:43:59 EDT" duration-ms="19930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterMarketing -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:59 EDT" name="tearDown" finished-at="2026-04-13T16:43:59 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:59 EDT" name="setUp" finished-at="2026-04-13T16:43:59 EDT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:43:59 EDT" name="openWatchPage" finished-at="2026-04-13T16:44:01 EDT" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterMonetization()[pri:18, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:01 EDT" name="verifyFooterMonetization" finished-at="2026-04-13T16:44:21 EDT" duration-ms="19914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterMonetization -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:21 EDT" name="tearDown" finished-at="2026-04-13T16:44:21 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:21 EDT" name="setUp" finished-at="2026-04-13T16:44:21 EDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:21 EDT" name="openWatchPage" finished-at="2026-04-13T16:44:32 EDT" duration-ms="10851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterCommunications()[pri:19, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:32 EDT" name="verifyFooterCommunications" finished-at="2026-04-13T16:44:52 EDT" duration-ms="19941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterCommunications -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:52 EDT" name="tearDown" finished-at="2026-04-13T16:44:52 EDT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:52 EDT" name="setUp" finished-at="2026-04-13T16:44:52 EDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:52 EDT" name="openWatchPage" finished-at="2026-04-13T16:44:54 EDT" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterStaffPicks()[pri:20, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:44:54 EDT" name="verifyFooterStaffPicks" finished-at="2026-04-13T16:45:15 EDT" duration-ms="21323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterStaffPicks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:15 EDT" name="tearDown" finished-at="2026-04-13T16:45:15 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:15 EDT" name="setUp" finished-at="2026-04-13T16:45:16 EDT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:16 EDT" name="openWatchPage" finished-at="2026-04-13T16:45:18 EDT" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterWatch()[pri:21, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:18 EDT" name="verifyFooterWatch" finished-at="2026-04-13T16:45:38 EDT" duration-ms="20604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterWatch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:38 EDT" name="tearDown" finished-at="2026-04-13T16:45:38 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:38 EDT" name="setUp" finished-at="2026-04-13T16:45:38 EDT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:38 EDT" name="openWatchPage" finished-at="2026-04-13T16:45:40 EDT" duration-ms="1961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterCategories()[pri:22, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:45:40 EDT" name="verifyFooterCategories" finished-at="2026-04-13T16:46:00 EDT" duration-ms="19676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterCategories -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:00 EDT" name="tearDown" finished-at="2026-04-13T16:46:00 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:00 EDT" name="setUp" finished-at="2026-04-13T16:46:00 EDT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:00 EDT" name="openWatchPage" finished-at="2026-04-13T16:46:02 EDT" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterChannels()[pri:23, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:02 EDT" name="verifyFooterChannels" finished-at="2026-04-13T16:46:22 EDT" duration-ms="19540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterChannels -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:22 EDT" name="tearDown" finished-at="2026-04-13T16:46:22 EDT" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:22 EDT" name="setUp" finished-at="2026-04-13T16:46:22 EDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:22 EDT" name="openWatchPage" finished-at="2026-04-13T16:46:24 EDT" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterOnDemand()[pri:24, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:24 EDT" name="verifyFooterOnDemand" finished-at="2026-04-13T16:46:44 EDT" duration-ms="19497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterOnDemand -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:44 EDT" name="tearDown" finished-at="2026-04-13T16:46:44 EDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:44 EDT" name="setUp" finished-at="2026-04-13T16:46:44 EDT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:44 EDT" name="openWatchPage" finished-at="2026-04-13T16:46:46 EDT" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterHelpCenter()[pri:25, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:46:46 EDT" name="verifyFooterHelpCenter" finished-at="2026-04-13T16:47:06 EDT" duration-ms="19878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterHelpCenter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:06 EDT" name="tearDown" finished-at="2026-04-13T16:47:06 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:06 EDT" name="setUp" finished-at="2026-04-13T16:47:06 EDT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:06 EDT" name="openWatchPage" finished-at="2026-04-13T16:47:10 EDT" duration-ms="4083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterBlog()[pri:26, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:10 EDT" name="verifyFooterBlog" finished-at="2026-04-13T16:47:30 EDT" duration-ms="19827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterBlog -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:30 EDT" name="tearDown" finished-at="2026-04-13T16:47:30 EDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:30 EDT" name="setUp" finished-at="2026-04-13T16:47:31 EDT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:31 EDT" name="openWatchPage" finished-at="2026-04-13T16:47:32 EDT" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterMediaKit()[pri:27, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:32 EDT" name="verifyFooterMediaKit" finished-at="2026-04-13T16:47:52 EDT" duration-ms="20022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterMediaKit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:52 EDT" name="tearDown" finished-at="2026-04-13T16:47:53 EDT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:53 EDT" name="setUp" finished-at="2026-04-13T16:47:53 EDT" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:53 EDT" name="openWatchPage" finished-at="2026-04-13T16:47:57 EDT" duration-ms="4284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterAbout()[pri:28, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:47:57 EDT" name="verifyFooterAbout" finished-at="2026-04-13T16:48:17 EDT" duration-ms="20037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterAbout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:17 EDT" name="tearDown" finished-at="2026-04-13T16:48:17 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:17 EDT" name="setUp" finished-at="2026-04-13T16:48:17 EDT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:17 EDT" name="openWatchPage" finished-at="2026-04-13T16:48:19 EDT" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterCareers()[pri:29, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:19 EDT" name="verifyFooterCareers" finished-at="2026-04-13T16:48:39 EDT" duration-ms="20017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterCareers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:39 EDT" name="tearDown" finished-at="2026-04-13T16:48:40 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:40 EDT" name="setUp" finished-at="2026-04-13T16:48:40 EDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openWatchPage()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:40 EDT" name="openWatchPage" finished-at="2026-04-13T16:48:42 EDT" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWatchPage -->
+        <test-method signature="verifyFooterSitemap()[pri:30, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:48:42 EDT" name="verifyFooterSitemap" finished-at="2026-04-13T16:49:02 EDT" duration-ms="19877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterSitemap -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FooterTests@1c93084c]" started-at="2026-04-13T16:49:02 EDT" name="tearDown" finished-at="2026-04-13T16:49:02 EDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FooterTests -->
       <class name="tests.LoginPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:44 EDT" name="setUp" finished-at="2026-04-12T11:03:46 EDT" duration-ms="1978" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:45 EDT" name="setUp" finished-at="2026-04-13T16:33:46 EDT" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginPageLoads()[pri:1, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:46 EDT" name="testLoginPageLoads" description="Verifies the Vimeo login page is reachable and visibly renders the sign-in experience." finished-at="2026-04-12T11:03:46 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:46 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:33:51 EDT" duration-ms="5517" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginPageLoads -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:46 EDT" name="tearDown" finished-at="2026-04-12T11:03:46 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyLoginPopupAppears()[pri:1, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:51 EDT" name="verifyLoginPopupAppears" description="Verify login popup appears." finished-at="2026-04-13T16:33:51 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPopupAppears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:51 EDT" name="tearDown" finished-at="2026-04-13T16:33:51 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:46 EDT" name="setUp" finished-at="2026-04-12T11:03:47 EDT" duration-ms="1518" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:51 EDT" name="setUp" finished-at="2026-04-13T16:33:51 EDT" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testEmailFieldVisibleAndEditable()[pri:2, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:47 EDT" name="testEmailFieldVisibleAndEditable" description="Verifies the email field is visible, enabled, and supports text entry." finished-at="2026-04-12T11:03:47 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:51 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:33:59 EDT" duration-ms="7396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEmailFieldVisibleAndEditable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:47 EDT" name="tearDown" finished-at="2026-04-12T11:03:47 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyFacebookLoginButton()[pri:2, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:33:59 EDT" name="verifyFacebookLoginButton" description="Click Facebook login." finished-at="2026-04-13T16:34:04 EDT" duration-ms="4813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:04 EDT" name="tearDown" finished-at="2026-04-13T16:34:04 EDT" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:47 EDT" name="setUp" finished-at="2026-04-12T11:03:49 EDT" duration-ms="1507" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:04 EDT" name="setUp" finished-at="2026-04-13T16:34:04 EDT" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPasswordFieldVisibleAndMasked()[pri:3, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:49 EDT" name="testPasswordFieldVisibleAndMasked" description="Verifies the password field is present, masked, and accepts input." finished-at="2026-04-12T11:03:49 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:04 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:34:09 EDT" duration-ms="5468" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPasswordFieldVisibleAndMasked -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:49 EDT" name="tearDown" finished-at="2026-04-12T11:03:49 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyGoogleLoginButton()[pri:3, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:09 EDT" name="verifyGoogleLoginButton" description="Click Google login." finished-at="2026-04-13T16:34:14 EDT" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoogleLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:14 EDT" name="tearDown" finished-at="2026-04-13T16:34:14 EDT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:49 EDT" name="setUp" finished-at="2026-04-12T11:03:50 EDT" duration-ms="1506" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:14 EDT" name="setUp" finished-at="2026-04-13T16:34:14 EDT" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginButtonVisibleAndEnabled()[pri:4, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:50 EDT" name="testLoginButtonVisibleAndEnabled" description="Verifies the primary login action is visible and actionable." finished-at="2026-04-12T11:03:50 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:14 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:34:20 EDT" duration-ms="5461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginButtonVisibleAndEnabled -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:50 EDT" name="tearDown" finished-at="2026-04-12T11:03:50 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyAppleLoginButton()[pri:4, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:20 EDT" name="verifyAppleLoginButton" description="Click Apple login." finished-at="2026-04-13T16:34:26 EDT" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppleLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:26 EDT" name="tearDown" finished-at="2026-04-13T16:34:26 EDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:50 EDT" name="setUp" finished-at="2026-04-12T11:03:52 EDT" duration-ms="1506" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:26 EDT" name="setUp" finished-at="2026-04-13T16:34:26 EDT" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testKeyboardNavigationAcrossLoginForm()[pri:5, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:52 EDT" name="testKeyboardNavigationAcrossLoginForm" description="Verifies users can tab through the login controls with a keyboard." finished-at="2026-04-12T11:03:52 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:26 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:34:31 EDT" duration-ms="5420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testKeyboardNavigationAcrossLoginForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:52 EDT" name="tearDown" finished-at="2026-04-12T11:03:52 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyInvalidEmailPasswordSubmit()[pri:5, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:31 EDT" name="verifyInvalidEmailPasswordSubmit" description="Submit invalid email and password." finished-at="2026-04-13T16:34:45 EDT" duration-ms="13258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailPasswordSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:45 EDT" name="tearDown" finished-at="2026-04-13T16:34:45 EDT" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:52 EDT" name="setUp" finished-at="2026-04-12T11:03:53 EDT" duration-ms="1509" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:45 EDT" name="setUp" finished-at="2026-04-13T16:34:45 EDT" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testForgotPasswordLinkExists()[pri:6, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:53 EDT" name="testForgotPasswordLinkExists" description="Verifies password recovery navigation is available on the login page." finished-at="2026-04-12T11:03:53 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:45 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:34:50 EDT" duration-ms="5491" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testForgotPasswordLinkExists -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:53 EDT" name="tearDown" finished-at="2026-04-12T11:03:53 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyEmptySubmitStaysInPopup()[pri:6, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:50 EDT" name="verifyEmptySubmitStaysInPopup" description="Submit empty login form." finished-at="2026-04-13T16:34:56 EDT" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptySubmitStaysInPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:56 EDT" name="tearDown" finished-at="2026-04-13T16:34:56 EDT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:53 EDT" name="setUp" finished-at="2026-04-12T11:03:55 EDT" duration-ms="1510" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:56 EDT" name="setUp" finished-at="2026-04-13T16:34:56 EDT" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSignupLinkExists()[pri:7, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:55 EDT" name="testSignupLinkExists" description="Verifies account creation navigation is available from the login page." finished-at="2026-04-12T11:03:55 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:34:56 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:35:02 EDT" duration-ms="5575" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSignupLinkExists -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:55 EDT" name="tearDown" finished-at="2026-04-12T11:03:55 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyForgotPasswordLink()[pri:7, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:02 EDT" name="verifyForgotPasswordLink" description="Click forgot password." finished-at="2026-04-13T16:35:11 EDT" duration-ms="9586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:11 EDT" name="tearDown" finished-at="2026-04-13T16:35:11 EDT" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:55 EDT" name="setUp" finished-at="2026-04-12T11:03:56 EDT" duration-ms="1505" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:11 EDT" name="setUp" finished-at="2026-04-13T16:35:12 EDT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInvalidLoginAttempt()[pri:8, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:56 EDT" name="testInvalidLoginAttempt" description="Verifies invalid credentials keep the user in the login experience and surface feedback." finished-at="2026-04-12T11:03:56 EDT" duration-ms="1" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:12 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:35:17 EDT" duration-ms="5487" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLoginAttempt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:56 EDT" name="tearDown" finished-at="2026-04-12T11:03:56 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyJoinVimeoLink()[pri:8, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:17 EDT" name="verifyJoinVimeoLink" description="Click Join Vimeo." finished-at="2026-04-13T16:35:24 EDT" duration-ms="6554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinVimeoLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:24 EDT" name="tearDown" finished-at="2026-04-13T16:35:24 EDT" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:56 EDT" name="setUp" finished-at="2026-04-12T11:03:58 EDT" duration-ms="1508" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:24 EDT" name="setUp" finished-at="2026-04-13T16:35:24 EDT" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testEnterKeySubmissionFromPasswordField()[pri:9, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:58 EDT" name="testEnterKeySubmissionFromPasswordField" description="Verifies pressing Enter in the password field submits the login form path." finished-at="2026-04-12T11:03:58 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:24 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:35:30 EDT" duration-ms="5515" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEnterKeySubmissionFromPasswordField -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:58 EDT" name="tearDown" finished-at="2026-04-12T11:03:58 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyCloseLoginPopup()[pri:9, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:30 EDT" name="verifyCloseLoginPopup" description="Click close on the login popup." finished-at="2026-04-13T16:35:46 EDT" duration-ms="16633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloseLoginPopup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:46 EDT" name="tearDown" finished-at="2026-04-13T16:35:46 EDT" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:58 EDT" name="setUp" finished-at="2026-04-12T11:03:59 EDT" duration-ms="1508" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:46 EDT" name="setUp" finished-at="2026-04-13T16:35:47 EDT" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAlternateLoginOptionVisible()[pri:10, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:59 EDT" name="testAlternateLoginOptionVisible" description="Verifies the page exposes at least one alternate authentication option." finished-at="2026-04-12T11:03:59 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Unable to start ChromeDriver after retries]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Unable to start ChromeDriver after retries
-at base.BaseTest.createChromeDriver(BaseTest.java:81)
-at base.BaseTest.setUp(BaseTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.RuntimeException: Unable to find a free port
-at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:61)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:502)
-at base.BaseTest.createChromeDriver(BaseTest.java:73)
-... 35 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method is-config="true" signature="openWatchPageAndLoginPopup()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:47 EDT" name="openWatchPageAndLoginPopup" finished-at="2026-04-13T16:35:52 EDT" duration-ms="5507" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAlternateLoginOptionVisible -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@d706f19]" started-at="2026-04-12T11:03:59 EDT" name="tearDown" finished-at="2026-04-12T11:03:59 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- openWatchPageAndLoginPopup -->
+        <test-method signature="verifyValidEmailPasswordSubmit()[pri:10, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:35:52 EDT" name="verifyValidEmailPasswordSubmit" description="Submit valid email and password." finished-at="2026-04-13T16:36:05 EDT" duration-ms="13235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidEmailPasswordSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTests@4df50bcc]" started-at="2026-04-13T16:36:05 EDT" name="tearDown" finished-at="2026-04-13T16:36:05 EDT" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginPageTests -->
-    </test> <!-- Login Page Tests -->
-  </suite> <!-- Vimeo Login Suite -->
+    </test> <!-- Sequential Vimeo Tests -->
+  </suite> <!-- Vimeo Test Suite -->
 </testng-results>
