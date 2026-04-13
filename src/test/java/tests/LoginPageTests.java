@@ -1,6 +1,3 @@
-// Nelson repo token: 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
-// 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
-
 package tests;
 
 import base.BaseTest;
