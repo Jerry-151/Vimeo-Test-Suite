@@ -11,6 +11,3 @@ These tests help catch issues after UI or code changes. They confirm that existi
 
 ## 4. Basic Functional Interaction Tests
 These tests verify simple user interactions such as clicking menu options, opening popups, closing tabs, and returning to the original page. They confirm that the basic behavior of each control works as expected, even if they do not deeply validate the destination content.
-
-Parallel: mvn test -Dsurefire.suiteXmlFiles=testng-parallel.xml
-Sequential: mvn test -Dsurefire.suiteXmlFiles=testng.xml
