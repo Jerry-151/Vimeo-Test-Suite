@@ -6,6 +6,7 @@
 
         <classes>
             <class name="tests.LoginPageTests"/>
+            <class name="tests.LeftNavigationTests"/>
         </classes>
 
     </test>
