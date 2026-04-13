@@ -4,9 +4,7 @@ import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.SkipException;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -20,18 +18,10 @@ public class LeftNavigationTests extends BaseTest {
     private static final String WATCH_URL = "https://vimeo.com/watch";
     private static final long WAIT_TIMEOUT_MS = Duration.ofSeconds(12).toMillis();
 
-    @BeforeClass(alwaysRun = true)
-    public void openWatchPageOnce() {
-        driver().get(WATCH_URL);
-        waitForPageReady();
-    }
-
     @BeforeMethod(alwaysRun = true)
     public void ensureWatchPageBeforeEachTest() {
-        if (!driver().getCurrentUrl().contains("/watch")) {
-            driver().get(WATCH_URL);
-            waitForPageReady();
-        }
+        driver().get(WATCH_URL);
+        waitForPageReady();
     }
 
     private void waitForPageReady() {
@@ -54,7 +44,7 @@ public class LeftNavigationTests extends BaseTest {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
-            Assert.fail("Interrupted while waiting.", e);
+            throw new RuntimeException("Interrupted while waiting.", e);
         }
     }
 
@@ -78,9 +68,6 @@ public class LeftNavigationTests extends BaseTest {
         return null;
     }
 
-    /**
-     * Logged-out Vimeo left nav items are span[role='link'] rows in the nav.
-     */
     private WebElement findLeftNavItemOrNull(String text) {
         return firstVisibleOrNull(
                 By.xpath("//nav//span[@role='link' and normalize-space()='" + text + "']"),
@@ -94,7 +81,7 @@ public class LeftNavigationTests extends BaseTest {
     private void clickHandleTabOrPageChange(String text) {
         WebElement element = findLeftNavItemOrNull(text);
         if (element == null) {
-            throw new SkipException("Left nav item is not present in the current logged-out UI: " + text);
+            throw new SkipException("Left nav item is not present in current UI: " + text);
         }
 
         String originalWindow = driver().getWindowHandle();
@@ -103,6 +90,7 @@ public class LeftNavigationTests extends BaseTest {
 
         scrollIntoView(element);
         highlight(element);
+        demoPause();
 
         try {
             element.click();
@@ -110,7 +98,7 @@ public class LeftNavigationTests extends BaseTest {
             ((JavascriptExecutor) driver()).executeScript("arguments[0].click();", element);
         }
 
-        demoPause(); // 2 seconds after click
+        demoPause();
 
         Set<String> windowsAfter = driver().getWindowHandles();
         if (windowsAfter.size() > windowsBefore.size()) {
@@ -120,11 +108,11 @@ public class LeftNavigationTests extends BaseTest {
             if (!newWindows.isEmpty()) {
                 driver().switchTo().window(newWindows.get(0));
                 waitForPageReady();
-                demoPause(); // 2 seconds on new tab
+                demoPause();
                 driver().close();
                 driver().switchTo().window(originalWindow);
                 waitForPageReady();
-                demoPause(); // 2 seconds after returning
+                demoPause();
                 return;
             }
         }
@@ -132,10 +120,10 @@ public class LeftNavigationTests extends BaseTest {
         String afterUrl = driver().getCurrentUrl();
         if (!afterUrl.equals(beforeUrl)) {
             waitForPageReady();
-            demoPause(); // 2 seconds on changed page
+            demoPause();
             driver().navigate().back();
             waitForPageReady();
-            demoPause(); // 2 seconds after back
+            demoPause();
         }
     }
 
