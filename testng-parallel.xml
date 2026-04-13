@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Vimeo Login Suite">
+<suite name="Vimeo Parallel Suite" parallel="classes" thread-count="1">
 
-    <test name="Login Page Tests">
+    <test name="Login Page Tests Parallel">
 
         <classes>
             <class name="tests.LoginPageTests"/>
