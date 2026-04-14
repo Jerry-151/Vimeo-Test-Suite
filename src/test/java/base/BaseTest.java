@@ -30,10 +30,14 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--disable-notifications");
+        options.addArguments("--disable-popup-blocking");
         options.addArguments("--remote-allow-origins=*");
 
         WebDriver webDriver = new ChromeDriver(options);
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
+        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+        webDriver.manage().timeouts().scriptTimeout(Duration.ofSeconds(30));
+
         DRIVER.set(webDriver);
     }
 
@@ -52,10 +56,19 @@ public class BaseTest {
 
     protected void demoPause() {
         try {
-            Thread.sleep(2000);
+            Thread.sleep(1200);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             throw new RuntimeException("Interrupted during demo pause.", e);
+        }
+    }
+
+    protected void smallPause() {
+        try {
+            Thread.sleep(400);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Interrupted during small pause.", e);
         }
     }
 
@@ -70,6 +83,9 @@ public class BaseTest {
         try {
             JavascriptExecutor js = (JavascriptExecutor) driver();
             String originalStyle = element.getAttribute("style");
+            if (originalStyle == null) {
+                originalStyle = "";
+            }
 
             js.executeScript(
                     "arguments[0].setAttribute('style', arguments[1]);",
@@ -77,7 +93,7 @@ public class BaseTest {
                     originalStyle + " border: 2px solid red; background: rgba(255,255,0,0.25);"
             );
 
-            Thread.sleep(250);
+            Thread.sleep(150);
 
             js.executeScript(
                     "arguments[0].setAttribute('style', arguments[1]);",

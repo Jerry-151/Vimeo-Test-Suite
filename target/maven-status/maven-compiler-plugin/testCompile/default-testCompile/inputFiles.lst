@@ -1,3 +1,5 @@
 /home/nelson/IdeaProjects/assignment/Vimeo-Test-Suite/src/test/java/base/BaseTest.java
+/home/nelson/IdeaProjects/assignment/Vimeo-Test-Suite/src/test/java/tests/FooterTests.java
+/home/nelson/IdeaProjects/assignment/Vimeo-Test-Suite/src/test/java/tests/LeftNavigationTests.java
 /home/nelson/IdeaProjects/assignment/Vimeo-Test-Suite/src/test/java/tests/LoginPageTests.java
 /home/nelson/IdeaProjects/assignment/Vimeo-Test-Suite/src/test/java/utils/WaitUtils.java
