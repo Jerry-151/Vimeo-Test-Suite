@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Vimeo Parallel Suite" parallel="classes" thread-count="3">
+<suite name="Vimeo Parallel Suite" verbose="1" parallel="methods" thread-count="3">
 
-    <test name="Parallel Vimeo UI Tests">
+    <test name="Vimeo Parallel Tests">
         <classes>
             <class name="tests.LoginPageTests"/>
             <class name="tests.LeftNavigationTests"/>
-            <class name="tests.FooterTests"/>
+            <class name="tests.VideoPlayerTests"/>
         </classes>
     </test>
 
